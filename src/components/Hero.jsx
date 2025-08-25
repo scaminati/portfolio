@@ -12,8 +12,8 @@ export function Hero({ profile }){
         </h1>
         <p className="mt-6 leading-relaxed text-slate-700 dark:text-slate-300">{profile.summary}</p>
         <div className="mt-6 flex flex-wrap gap-3 text-sm">
-          {profile.contact.linkedin && <a className="badge" href={profile.contact.linkedin} target="_blank" rel="noreferrer"><FaLinkedin /> LinkedIn</a>}
           {profile.location && <span className="badge"><SiGooglemaps /> {profile.location}</span>}
+          {profile.contact.linkedin && <a className="badge" href={profile.contact.linkedin} target="_blank" rel="noreferrer"><FaLinkedin /> LinkedIn</a>}
           {profile.contact.github && <a className="badge" href={profile.contact.github} target="_blank" rel="noreferrer"><FaGithub /> GitHub</a>}
           {profile.contact.github && <a className="badge" href={profile.contact.githubPagoPA} target="_blank" rel="noreferrer"><FaGithub /> GitHub PagoPA</a>}
         </div>
