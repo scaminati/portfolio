@@ -9,13 +9,11 @@ import { VscAzure } from 'react-icons/vsc'
 import { DiOpenshift } from 'react-icons/di'
 import { FaJava } from 'react-icons/fa'
 
-const Emoji = ({ symbol }) => <span aria-hidden="true" className="text-base leading-none">{symbol}</span>
-
 export function iconFor(label){
   const s = (label || '').toLowerCase()
   const within = (needle) => s.includes(needle)
 
-  // Languages (emoji flags)
+  // Languages
   if (within('italian')) return () => <></>
   if (within('english')) return () => <></>
 

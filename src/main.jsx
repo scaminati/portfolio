@@ -5,7 +5,7 @@ import './index.css'
 
 // Initialize theme from localStorage
 const stored = localStorage.getItem('theme')
-if (stored === 'dark') {
+if (stored === 'dark' || !stored) {
   document.documentElement.classList.add('dark')
 }
 
