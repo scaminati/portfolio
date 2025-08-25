@@ -37,9 +37,9 @@ export function Header({ profile }){
           </div>
         </div>
       </header>
-      <footer className="sm:hidden fixed bottom-0 left-0 w-full container flex justify-center items-center p-3 gap-4 z-50 backdrop-blur supports-[backdrop-filter]:bg-white/60 dark:supports-[backdrop-filter]:bg-slate-900/60 border-b border-slate-200/60 dark:border-slate-800/60">
+      <div className="sm:hidden fixed bottom-0 left-0 w-full container flex justify-center items-center py-6 px-4 gap-4 z-50 backdrop-blur supports-[backdrop-filter]:bg-white/60 dark:supports-[backdrop-filter]:bg-slate-900/60 border-b border-slate-200/60 dark:border-slate-800/60">
           {menuBar(true)}
-      </footer>
+      </div>
     </>
   )
 }

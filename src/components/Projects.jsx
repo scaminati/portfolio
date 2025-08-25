@@ -5,7 +5,7 @@ export function Projects({ projects }){
   return (
     <section id="projects" className="section">
       <div className="container">
-        <h2 className="text-2xl font-bold mb-6">Projects</h2>
+        <h2 className="text-2xl font-bold mb-6">Main Projects</h2>
         <div className="grid md:grid-cols-2 gap-6">
           {projects.map((p, idx) => (
             <article key={idx} className="card p-6">
