@@ -4,7 +4,6 @@ const profile = {
   location: 'Anzio (Rome), Italy',
   summary: `I am a Senior Software Engineer with over 10 years in the IT industry, specializing in full‑stack development, mobile and web applications, and user interface design. Currently serving as a Software Development Senior Specialist at BV TECH S.p.A., where I contribute to the evolution of PagoPA, the digital payment platform used by Italian citizens. Previously, I led the design and development of hybrid mobile apps and web solutions at Exaltech S.r.l., gaining experience across front‑end and back‑end technologies.`,
   contact: {
-    email: 'simone.caminati@gmail.com',
     github: 'https://github.com/scaminati',
     githubPagoPA: 'https://github.com/scaminati-bv',
     linkedin: 'https://www.linkedin.com/in/simonecaminati'
