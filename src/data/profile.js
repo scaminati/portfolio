@@ -77,7 +77,7 @@ const profile = {
       name: 'Smactory – Industrial solutions suite',
       company: 'Exaltech S.r.l.',
       period: 'May 2016 – Jul 2024',
-      stack: ['JavaScript', 'AngularJS', 'Cordova'],
+      stack: ['JavaScript', 'AngularJS', 'Cordova', 'Camunda'],
       points: [
         'Real‑time insights on machinery, processes and HMI.',
         'Features: augmented reality, beacon detection, QR scanning, video calling.',
