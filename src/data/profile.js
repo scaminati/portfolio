@@ -15,7 +15,7 @@ const profile = {
     'Data': ['MongoDB', 'Redis', 'Oracle SQL', 'PostgreSQL'],
     'Mobile': ['Android', 'Ionic', 'Capacitor', 'Cordova'],
     'Programming': ['Node.js', 'JavaScript', 'TypeScript', 'fp-ts (Functional programming)', 'Kotlin', 'Java'],
-    'Languages': ['Italian (native)', 'English (B2)']
+    'Languages': ['Italian (native)', 'English (professional)']
   },
   experience: [
     {
