@@ -51,7 +51,7 @@ const profile = {
       name: 'PagoPA Checkout',
       company: 'BV TECH S.p.A.',
       period: 'Jul 2024 – Apr 2025',
-      stack: ['Spring Boot', 'Java', 'Kotlin', 'React', 'Node.js', 'Redis'],
+      stack: ['Spring Boot', 'Java', 'Kotlin', 'React', 'Node.js', 'Redis', 'CI/CD Pipelines', 'Azure', 'Docker', 'Terraform', 'Scrum'],
       points: [
         'Maintained and enhanced frontend and backend components with performance optimizations.',
         'Wrote unit tests for React components to improve reliability and maintainability.',
@@ -77,7 +77,7 @@ const profile = {
       name: 'Smactory – Industrial solutions suite',
       company: 'Exaltech S.r.l.',
       period: 'May 2016 – Jul 2024',
-      stack: ['JavaScript', 'AngularJS', 'Cordova', 'Camunda'],
+      stack: ['JavaScript', 'AngularJS', 'Cordova'],
       points: [
         'Real‑time insights on machinery, processes and HMI.',
         'Features: augmented reality, beacon detection, QR scanning, video calling.',
