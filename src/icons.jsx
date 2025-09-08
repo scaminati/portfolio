@@ -2,7 +2,8 @@ import {
   SiDocker, SiKubernetes, SiTerraform, SiSpringboot,
   SiExpress, SiFastify, SiOpenapiinitiative, SiCamunda, SiNextdotjs, SiTailwindcss, SiAngular,
   SiReact, SiVuedotjs, SiMongodb, SiRedis, SiOracle, SiPostgresql, SiAndroid, SiIonic,
-  SiCapacitor, SiApachecordova, SiNodedotjs, SiJavascript, SiTypescript, SiKotlin
+  SiCapacitor, SiApachecordova, SiNodedotjs, SiJavascript, SiTypescript, SiKotlin,
+  SiClockify
 } from 'react-icons/si'
 import { FiGlobe } from 'react-icons/fi'
 import { VscAzure } from 'react-icons/vsc'
@@ -37,6 +38,7 @@ export function iconFor(label){
   if (within('rest') || within('openapi')) return SiOpenapiinitiative
   if (within('camunda')) return SiCamunda
   if (within('drools')) return PiEngineBold
+  if (within('quartz')) return SiClockify
 
   // Front-end
   if (within('next')) return SiNextdotjs
