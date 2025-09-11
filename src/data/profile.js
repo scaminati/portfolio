@@ -65,7 +65,7 @@ const profile = {
       name: 'FantaMD',
       company: 'Personal Project',
       period: 'Jun 2025 – Present',
-      stack: ['Next.js', 'TailwindCSS', 'HeroUI', 'Fastify', 'PostgreSQL', 'Github Actions', 'Vercel'],
+      stack: ['Next.js', 'TailwindCSS', 'HeroUI', 'Fastify', 'PostgreSQL', 'React', 'Github Actions', 'Vercel'],
       github: 'https://github.com/scaminati/fantacalcio-md',
       points: [
         'FantaMD is a full-stack web application designed to support participants management for our fantasy football game.',
