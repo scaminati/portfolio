@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react'
 import { iconFor } from '../icons'
+import { FaGithub } from 'react-icons/fa'
 
 export function Projects({ projects }){
   const [q, setQ] = useState('')
@@ -83,7 +84,19 @@ export function Projects({ projects }){
           <div className="grid md:grid-cols-2 gap-6">
             {filtered.map((p, idx) => (
               <article key={idx} className="card p-6">
-                <h3 className="font-semibold text-lg">{p.name}</h3>
+                <div className='flex items-center'>
+                  <h3 className="font-semibold text-lg flex-grow">{p.name}</h3>
+                  {p.github && (
+                    <a
+                      href={p.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 text-sm font-medium text-white bg-gray-800 hover:bg-gray-700 px-3 py-1.5 rounded transition-colors"
+                    >
+                      <FaGithub className="w-4 h-4" /> GitHub
+                    </a>
+                  )}
+                </div>
                 <p className="text-sm text-slate-600 dark:text-slate-400">{p.period} · {p.company}</p>
                 <div className='mt-4 flex flex-wrap gap-1'>
                   {p.stack.map((s) => {

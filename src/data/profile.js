@@ -9,7 +9,7 @@ const profile = {
     linkedin: 'https://www.linkedin.com/in/simonecaminati'
   },
   skills: {
-    'DevOps': ['Azure', 'Docker', 'Kubernetes (AKS)', 'CI/CD Pipelines', 'Terraform', 'Jenkins', 'OpenShift', 'Agile Scrum'],
+    'DevOps': ['Azure', 'Vercel', 'Docker', 'Kubernetes (AKS)', 'CI/CD Pipelines', 'Terraform', 'Jenkins', 'OpenShift', 'Agile Scrum'],
     'Back-end': ['Spring Boot', 'Express', 'Fastify', 'REST API', 'Drools', 'Camunda'],
     'Front-end': ['Next.js', 'TailwindCSS', 'Angular', 'React', 'Vue.js'],
     'Data': ['MongoDB', 'Redis', 'Oracle SQL', 'PostgreSQL'],
@@ -59,6 +59,18 @@ const profile = {
         'Implemented SPID authentication flow for secure user access.',
         'Designed CI pipelines for automated deployments with unit/integration tests across UAT and production.',
         'Performed soak testing using k6 to validate stability after Node.js 22 upgrade.'
+      ]
+    },
+    {
+      name: 'FantaMD',
+      company: 'Personal Project',
+      period: 'Jun 2025 – Present',
+      stack: ['Next.js', 'TailwindCSS', 'HeroUI', 'Fastify', 'PostgreSQL', 'Github Actions', 'Vercel'],
+      github: 'https://github.com/scaminati/fantacalcio-md',
+      points: [
+        'FantaMD is a full-stack web application designed to support participants management for our fantasy football game.',
+        'The entire project is deployed on Vercel for seamless hosting and scalability.',
+        'On every commit, a GitHub Action is triggered to automatically run the unit tests.',
       ]
     },
     {

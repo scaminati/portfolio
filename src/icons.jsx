@@ -3,12 +3,14 @@ import {
   SiExpress, SiFastify, SiOpenapiinitiative, SiCamunda, SiNextdotjs, SiTailwindcss, SiAngular,
   SiReact, SiVuedotjs, SiMongodb, SiRedis, SiOracle, SiPostgresql, SiAndroid, SiIonic,
   SiCapacitor, SiApachecordova, SiNodedotjs, SiJavascript, SiTypescript, SiKotlin,
-  SiClockify
+  SiClockify,
+  SiVercel,
+  SiNextui
 } from 'react-icons/si'
 import { FiGlobe } from 'react-icons/fi'
 import { VscAzure } from 'react-icons/vsc'
 import { DiOpenshift, DiScrum } from 'react-icons/di'
-import { FaJava, FaJenkins } from 'react-icons/fa'
+import { FaGithub, FaJava, FaJenkins } from 'react-icons/fa'
 import { CgInfinity } from 'react-icons/cg'
 import { TbLambda } from 'react-icons/tb'
 import { PiEngineBold } from 'react-icons/pi'
@@ -30,6 +32,8 @@ export function iconFor(label){
   if (within('openshift')) return DiOpenshift
   if (within('pipelines')) return CgInfinity
   if (within('scrum')) return DiScrum
+  if (within('github')) return FaGithub
+  if (within('vercel')) return SiVercel
 
   // Back-end
   if (within('spring boot') || within('spring')) return SiSpringboot
@@ -46,6 +50,7 @@ export function iconFor(label){
   if (within('angular')) return SiAngular
   if (within('react')) return SiReact
   if (within('vue')) return SiVuedotjs
+  if (within('heroui')) return SiNextui
 
   // Data
   if (within('mongo')) return SiMongodb
