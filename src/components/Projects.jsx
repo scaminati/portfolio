@@ -91,7 +91,7 @@ export function Projects({ projects }){
                       href={p.github}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 text-sm font-medium text-white bg-gray-800 hover:bg-gray-700 px-3 py-1.5 rounded transition-colors"
+                      className="inline-flex items-center gap-2 text-sm font-medium text-gray-800 hover:bg-gray-100 dark:text-white dark:bg-gray-800 dark:hover:bg-gray-700 px-3 py-1.5 rounded"
                     >
                       <FaGithub className="w-4 h-4" /> GitHub
                     </a>
