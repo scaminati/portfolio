@@ -114,7 +114,7 @@ const profile = {
       points: [
         "Analyzed and maintained issues in a national-scale identification system.",
         "Implemented the new identification platform planned to replace the legacy system.",
-        "Managed purchasing and enrichment workflows for business customers."
+        "Workflow management related to purchasing and data enrichment for business customers."
       ]
     },
     {
