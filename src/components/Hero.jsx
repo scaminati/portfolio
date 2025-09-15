@@ -19,7 +19,7 @@ export function Hero({ profile }){
         </div>
         <div className="mt-6 flex flex-wrap gap-3 text-sm">
           <a className="button inline-flex items-center justify-center" 
-            href="https://github.com/scaminati/cv/raw/main/src/cv.pdf" 
+            href="https://github.com/scaminati/cv/raw/main/caminati-simone-cv.pdf" 
             target='blank'>Download CV</a>
         </div>
       </div>
